@@ -1,0 +1,22 @@
+{
+  "name": "simulation",
+  "version": "1.0.0",
+  "description": "A simulation project to learn node.js",
+  "main": "BasicRouter.js",
+  "scripts": {
+    "test": "2+2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/young2sd/Simulation.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/young2sd/Simulation/issues"
+  },
+  "homepage": "https://github.com/young2sd/Simulation#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
