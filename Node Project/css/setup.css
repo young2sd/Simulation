@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+
+div ul li:hover {
+	background-color:#2D49A3;
+	color:white;
+}
+
+.dropdown {
+	margin:5px;	
+}
+
+.label {
+	margin:5px;
+}
+
+#startBtn {
+	margin:15px;	
+}
