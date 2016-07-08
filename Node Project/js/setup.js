@@ -1,6 +1,7 @@
 //Additional Scripts for setup page
 //Steven Young
 
+//Prepare information for posting
 $(function(){
 	$("#startBtn").click(function() {
 		//Break it into 3 arrays and post
@@ -13,3 +14,15 @@ $(function(){
 		window.location.href = "/";
 	});	
 });
+
+//Make the dropdowns slide
+$(function() {
+	$(".dropdown").on("show.bs.dropdown", function() {
+		$(this).find('.dropdown-menu').first().stop(true, true).slideDown();	
+	});
+	
+	$(".dropdown").on("hide.bs.dropdown", function() {
+		$(this).find('.dropdown-menu').first().stop(true, true).slideUp();	
+	});		
+});
+
